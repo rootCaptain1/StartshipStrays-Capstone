@@ -135,6 +135,7 @@
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\StateMachine\StateBase.cs" />
     <Compile Include="Assets\Scripts\UI\PlayerUIManager.cs" />
+    <Compile Include="Assets\StarshipStraysInputActions.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

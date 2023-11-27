@@ -428,6 +428,7 @@
 "Assets/Scripts/StateMachine/StateBase.cs"
 "Assets/Scripts/UI/PlayerUIManager.cs"
 "Assets/Scripts/UI/YouFailedUI.cs"
+"Assets/StarshipStraysInputActions.cs"
 -langversion:9.0
 
 /deterministic
