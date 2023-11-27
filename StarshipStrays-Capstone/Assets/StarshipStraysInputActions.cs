@@ -25,12 +25,12 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
     ""maps"": [
         {
             ""name"": ""Player"",
-            ""id"": ""60412612-7d59-4b00-9c98-73e0376f8ae5"",
+            ""id"": ""05a54c4e-e80d-48ee-82c1-112388426c7b"",
             ""actions"": [
                 {
                     ""name"": ""Move"",
                     ""type"": ""Value"",
-                    ""id"": ""09026d90-cb49-4377-87b0-12ff04cf06c0"",
+                    ""id"": ""e481e211-f12c-4940-aa1c-581d2f77856a"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,7 +39,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Look"",
                     ""type"": ""Value"",
-                    ""id"": ""f21f350e-0cb8-482c-a2bd-ad5629b9abb5"",
+                    ""id"": ""58d3e104-b568-40fc-8b50-0c8de87589e4"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -48,16 +48,16 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Fire"",
                     ""type"": ""Button"",
-                    ""id"": ""c9dd24da-47d7-4def-a864-17acda174a37"",
+                    ""id"": ""cbfbc88e-bbd1-4a73-9599-288878c489a1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""SwitchReceiver"",
+                    ""name"": ""SwtichReceiver"",
                     ""type"": ""Button"",
-                    ""id"": ""380e3889-47ea-46ae-aefb-f16df49188a2"",
+                    ""id"": ""ccdb085d-eb19-4c1c-8eed-94b83ee54ee9"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -287,12 +287,23 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b576f937-35ba-4d10-b48c-eabf63b560cd"",
+                    ""id"": ""6baa088a-1328-4569-9557-c64e329490fc"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Fire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b508ac8e-f3db-4339-959c-361712f6554f"",
                     ""path"": ""<Keyboard>/tab"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
-                    ""action"": ""SwitchReceiver"",
+                    ""action"": ""SwtichReceiver"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -300,12 +311,12 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
         },
         {
             ""name"": ""UI"",
-            ""id"": ""4465fc40-21ee-4aa7-8032-c120ec8930ab"",
+            ""id"": ""3c407e96-c89f-4b65-b7d7-e17660fe1e59"",
             ""actions"": [
                 {
                     ""name"": ""Navigate"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""c1661aff-0ab7-45d0-8c57-114369b7ac28"",
+                    ""id"": ""7a9c171c-5a1d-4024-a4ef-0830cd4a33e4"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -314,7 +325,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Submit"",
                     ""type"": ""Button"",
-                    ""id"": ""2fb5e308-c76c-419b-b1d0-2748fb07a122"",
+                    ""id"": ""774b1fb2-bf20-43b6-99a7-6e20bf214815"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -323,7 +334,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Cancel"",
                     ""type"": ""Button"",
-                    ""id"": ""2822f74a-e0a8-4ad2-ada2-58def9a2f09a"",
+                    ""id"": ""6fa549e5-4178-4641-baa9-e6f1628e4f19"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -332,7 +343,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Point"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""c59a46be-fb12-46db-bbb0-8b6c2ee725ec"",
+                    ""id"": ""be2281a0-b124-4ebb-9c0a-33b3f6b3555c"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -341,7 +352,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""Click"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""11d83977-82ce-43d3-aa31-641b3cf00446"",
+                    ""id"": ""e4c39ab6-751c-4ac0-9d7f-0fdfd25a2916"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -350,7 +361,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""ScrollWheel"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""4bbdf141-a12e-4967-93dd-68247626bc0d"",
+                    ""id"": ""cccc8dac-128c-4ba3-8bb4-2407820e14da"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -359,7 +370,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""MiddleClick"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""0c541674-78a8-467d-831e-8893e17490cb"",
+                    ""id"": ""e01e4129-9e53-43bf-96f0-fe52d3c1b117"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -368,7 +379,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""RightClick"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""69945bef-ac1b-4e77-a78d-b2070953260b"",
+                    ""id"": ""aac95190-c5aa-4592-942b-7b6a15443e57"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -377,7 +388,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""TrackedDevicePosition"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""03a3634c-b53d-46bf-94d8-d5790d1522db"",
+                    ""id"": ""39385d67-ac69-49d7-8cbe-33cb27dc30fe"",
                     ""expectedControlType"": ""Vector3"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -386,7 +397,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
                 {
                     ""name"": ""TrackedDeviceOrientation"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""272bad77-98a1-48aa-b376-f486951d73f8"",
+                    ""id"": ""38eadc37-2eeb-4fa8-877d-e0369e997c55"",
                     ""expectedControlType"": ""Quaternion"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -883,7 +894,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
         m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
-        m_Player_SwitchReceiver = m_Player.FindAction("SwitchReceiver", throwIfNotFound: true);
+        m_Player_SwtichReceiver = m_Player.FindAction("SwtichReceiver", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -960,7 +971,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
     private readonly InputAction m_Player_Move;
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_Fire;
-    private readonly InputAction m_Player_SwitchReceiver;
+    private readonly InputAction m_Player_SwtichReceiver;
     public struct PlayerActions
     {
         private @StarshipStraysInputActions m_Wrapper;
@@ -968,7 +979,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
         public InputAction @Move => m_Wrapper.m_Player_Move;
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
-        public InputAction @SwitchReceiver => m_Wrapper.m_Player_SwitchReceiver;
+        public InputAction @SwtichReceiver => m_Wrapper.m_Player_SwtichReceiver;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -987,9 +998,9 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
             @Fire.started += instance.OnFire;
             @Fire.performed += instance.OnFire;
             @Fire.canceled += instance.OnFire;
-            @SwitchReceiver.started += instance.OnSwitchReceiver;
-            @SwitchReceiver.performed += instance.OnSwitchReceiver;
-            @SwitchReceiver.canceled += instance.OnSwitchReceiver;
+            @SwtichReceiver.started += instance.OnSwtichReceiver;
+            @SwtichReceiver.performed += instance.OnSwtichReceiver;
+            @SwtichReceiver.canceled += instance.OnSwtichReceiver;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1003,9 +1014,9 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
             @Fire.started -= instance.OnFire;
             @Fire.performed -= instance.OnFire;
             @Fire.canceled -= instance.OnFire;
-            @SwitchReceiver.started -= instance.OnSwitchReceiver;
-            @SwitchReceiver.performed -= instance.OnSwitchReceiver;
-            @SwitchReceiver.canceled -= instance.OnSwitchReceiver;
+            @SwtichReceiver.started -= instance.OnSwtichReceiver;
+            @SwtichReceiver.performed -= instance.OnSwtichReceiver;
+            @SwtichReceiver.canceled -= instance.OnSwtichReceiver;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1191,7 +1202,7 @@ public partial class @StarshipStraysInputActions: IInputActionCollection2, IDisp
         void OnMove(InputAction.CallbackContext context);
         void OnLook(InputAction.CallbackContext context);
         void OnFire(InputAction.CallbackContext context);
-        void OnSwitchReceiver(InputAction.CallbackContext context);
+        void OnSwtichReceiver(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

@@ -56,86 +56,85 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeScripts\SequencerNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\InvertorNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\HasReachedDestinationAction.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\DebugAction.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\SetNextWaypoint.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\RepeatNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\RootNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\BehaviourTreeGraph.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\MoveToCurrentTargetAction.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\TargetIsOfType.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeScripts\SelectorNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\WaitAction.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonGenerationData.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\HealthUpgradeItem.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\RefillHealthItem.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\BulletSpreadUpgradeItem.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\CoinItem.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\SO\SO_Enemy.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\Projectile\Projectile.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\Door.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\Room.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\MiniMap\MiniMapController.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\StoreManager.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ItemSpawnPoint.cs" />
-    <Compile Include="Assets\Scripts\Enemy\MeleeEnemyBehavior.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ColorButton.cs" />
-    <Compile Include="Assets\Scripts\Canine\CanineBase.cs" />
-    <Compile Include="Assets\Scripts\InputActionScripts\Receiver.cs" />
-    <Compile Include="Assets\Scripts\InputActionScripts\CanineController.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ResetButton.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\ColorPuzzleManager.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\GridManager.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Pickup.cs" />
-    <Compile Include="Assets\Scripts\Enemy\RangeEnemyBehaviour.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\PressureButton.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\EnemySpawner.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\TestEnemy.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AITrigger.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AISensor.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\BTAgent.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchPuzzleManager.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\UI\YouFailedUI.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\SO\SO_Canine.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\IDestructable.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ISwitchObserver.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ButtonBase.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\Data\GameData.cs" />
-    <Compile Include="Assets\Scripts\InputActionScripts\Transmitter.cs" />
-    <Compile Include="Assets\Scripts\StateMachine\IdleState.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\Target.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\IDataPersistence.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\MoveToCurrentTargetAction.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonCrawlerController.cs" />
+    <Compile Include="Assets\Scripts\InputActionScripts\Receiver.cs" />
+    <Compile Include="Assets\Scripts\Enemy\RangeEnemyBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonCrawler.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\SO\SO_Enemy.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\RootNode.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\StateBase.cs" />
+    <Compile Include="Assets\Scripts\UI\YouFailedUI.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\BulletSpreadUpgradeItem.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\DecoratorNode.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AIAgentBase.cs" />
+    <Compile Include="Assets\Scripts\Canine\CanineBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonGenerator.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ResetButton.cs" />
+    <Compile Include="Assets\Scripts\InputActionScripts\Registry.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\WaitAction.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\Projectile\Projectile.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AISensor.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\ChaseState.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\HealthUpgradeItem.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\InvertorNode.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AITrigger.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\EnemySpawner.cs" />
+    <Compile Include="Assets\Scripts\Canine\CanineBase.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ColorButton.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\BasePuzzleManager.cs" />
     <Compile Include="Assets\Scripts\StateMachine\Agent.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNode.cs" />
+    <Compile Include="Assets\Scripts\Enemy\MeleeEnemyBehavior.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeScripts\SequencerNode.cs" />
+    <Compile Include="Assets\Scripts\UI\PlayerUIManager.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonGenerationData.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\SetNextWaypoint.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\DebugAction.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyBase.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\HasReachedDestinationAction.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\Switch.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\RepeatNode.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ItemManager.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\MiniMap\MiniMapMananger.cs" />
-    <Compile Include="Assets\Scripts\InputActionScripts\Registry.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\ColorPuzzleManager.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\BehaviourTreeGraph.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\IDestructable.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchPuzzleManager.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\BTAgent.cs" />
+    <Compile Include="Assets\Scripts\InputActionScripts\CanineController.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\ISwitchObserver.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\Target.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\DataPersistenceManager.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ItemBase.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeNode.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ItemSpawnPoint.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\IUseable.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\IDataPersistence.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\DecoratorNodes\DecoratorNode.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\AIAgentBase.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\EnemySpawning\TestEnemy.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\Door.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraController.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeScripts\SelectorNode.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\FileDataHandler.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonCrawlerController.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonCrawler.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ObjectPool.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\Switch.cs" />
     <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\BTBaseNode.cs" />
-    <Compile Include="Assets\Scripts\Canine\CanineBehaviour.cs" />
-    <Compile Include="Assets\Scripts\StateMachine\ChaseState.cs" />
-    <Compile Include="Assets\Scripts\InputActionScripts\TestPlayerController.cs" />
-    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\DungeonGenerator.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\GridManager.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\SO\SO_Canine.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\PersistenceSystem\Data\GameData.cs" />
+    <Compile Include="Assets\Scripts\StateMachine\IdleState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\StateMachine\StateBase.cs" />
-    <Compile Include="Assets\Scripts\UI\PlayerUIManager.cs" />
-    <Compile Include="Assets\StarshipStraysInputActions.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\Room.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\PuzzleSystem\SwitchBehaviour\PressureButton.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\RefillHealthItem.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Pickup.cs" />
+    <Compile Include="Assets\Scripts\InputActionScripts\TestPlayerController.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\ItemBase.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\StoreManager.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\ActionNodes\TargetIsOfType.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\AICore\BehaviourTree\CompositeNode.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\ItemSystem\Items\CoinItem.cs" />
+    <Compile Include="Assets\Scripts\PROGRAMMERS ONLY\DungeonGeneration\MiniMap\MiniMapController.cs" />
+    <Compile Include="Assets\Scripts\InputActionScripts\Transmitter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -830,13 +829,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{0B16CC24-8866-49A7-19A1-2FEC95083EA1}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
       <Project>{747C0BAB-8896-5FB9-1D44-1E92FF76AF51}</Project>
       <Name>XNodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{0B16CC24-8866-49A7-19A1-2FEC95083EA1}</Project>
+      <Name>XNode</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

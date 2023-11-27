@@ -56,29 +56,29 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\RenamePopup.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorGUILayout.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\InputAttributeDrawer.cs" />
     <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorGUI.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\GraphRenameFixAssetProcessor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorWindow.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\InNodeEditorAttributeProcessor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorPreferences.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\OutputAttributeDrawer.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeGraphImporter.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorUtilities.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorBase.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorAction.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorResources.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\NodeEnumDrawer.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorReflection.cs" />
     <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\AdvancedGenericMenu.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\SceneGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Internal\RerouteReference.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorUtilities.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeGraphImporter.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorReflection.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\InNodeEditorAttributeProcessor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeGraphEditor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\OutputAttributeDrawer.cs" />
     <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\GraphAndNodeEditor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorResources.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Internal\RerouteReference.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\RenamePopup.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorWindow.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\SceneGraphEditor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\Odin\InputAttributeDrawer.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorBase.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorGUILayout.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorPreferences.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\Drawers\NodeEnumDrawer.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorAction.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\GraphRenameFixAssetProcessor.cs" />
+    <Compile Include="Assets\xNode-master\xNode-master\Scripts\Editor\NodeEditorAssetModProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\xNode-master\xNode-master\Scripts\Editor\XNodeEditor.asmdef" />
