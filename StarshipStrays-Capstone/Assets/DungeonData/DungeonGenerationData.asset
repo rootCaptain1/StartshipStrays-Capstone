@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3588b985927f2c459a5a21aa4249b25, type: 3}
+  m_Name: DungeonGenerationData
+  m_EditorClassIdentifier: 
+  roomPrefabs:
+  - {fileID: 330517322168600754, guid: 31e0fa780f88612458d16b994c628be0, type: 3}
+  - {fileID: 8575340276869638885, guid: 87f1b209ccbef04478e7ce892d9b4fc9, type: 3}
+  - {fileID: 4766676756449032767, guid: 2ce77339c5b51b348b1c9a6e008ec6da, type: 3}
+  - {fileID: 9145352910051664179, guid: 182fc7318188d4a42888370853755f50, type: 3}
+  - {fileID: 5497188554924571938, guid: 73adfbdc92cacda40aa5faf850c8097d, type: 3}
+  - {fileID: 4766676756449032767, guid: 25aadfccc12aacd4b8f2973d9f8bc1d8, type: 3}
+  - {fileID: 4766676756449032767, guid: e09eed88a4e6cd54bb522fcf2028b84d, type: 3}
+  - {fileID: 1596532576684563615, guid: 2e0f51dcf16859a48a6de6eecbf49b9e, type: 3}
+  - {fileID: 1596532576684563615, guid: 15deed1804d06ea44b47d9555ac0004e, type: 3}
+  numberOfCrawlers: 3
+  minIterations: 7
+  _maxIterations: 9
